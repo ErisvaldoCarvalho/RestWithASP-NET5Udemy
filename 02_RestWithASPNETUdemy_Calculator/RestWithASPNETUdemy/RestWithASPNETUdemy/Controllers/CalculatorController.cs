@@ -18,18 +18,18 @@ namespace RestWithASPNETUdemy.Controllers
         }
 
         [HttpGet("sum/{firstNumber}/{secondNumber}")]
-        public IActionResult Get(string firstNumber, string secondNumber)
+        public IActionResult Somar(string firstNumber, string secondNumber)
         {
             if (IsNumeric(secondNumber) && IsNumeric(firstNumber))
             {
-                var sum = ConvertDecimal(firstNumber) + ConvertDecimal(secondNumber);
-                return Ok(sum.ToString());
+                var retorno = ConvertDecimal(firstNumber) + ConvertDecimal(secondNumber);
+                return Ok(retorno.ToString());
             }
             return BadRequest("Entrada inválida");
         }
 
         [HttpGet("subtrair/{firstNumber}/{secondNumber}")]
-        public IActionResult GetSubtrair(string firstNumber, string secondNumber)
+        public IActionResult Subtrair(string firstNumber, string secondNumber)
         {
             if (IsNumeric(secondNumber) && IsNumeric(firstNumber))
             {
@@ -40,30 +40,51 @@ namespace RestWithASPNETUdemy.Controllers
         }
 
         [HttpGet("multiplicar/{firstNumber}/{secondNumber}")]
-        public IActionResult GetMultiplicar(string firstNumber, string secondNumber)
+        public IActionResult Multiplicar(string firstNumber, string secondNumber)
         {
             if (IsNumeric(secondNumber) && IsNumeric(firstNumber))
             {
-                var sum = ConvertDecimal(firstNumber) * ConvertDecimal(secondNumber);
-                return Ok(sum.ToString());
+                var retorno = ConvertDecimal(firstNumber) * ConvertDecimal(secondNumber);
+                return Ok(retorno.ToString());
             }
             return BadRequest("Entrada inválida");
         }
 
         [HttpGet("dividir/{firstNumber}/{secondNumber}")]
-        public IActionResult GetDividir(string firstNumber, string secondNumber)
+        public IActionResult Dividir(string firstNumber, string secondNumber)
         {
             if (IsNumeric(secondNumber) && IsNumeric(firstNumber))
             {
                 if (ConvertDecimal(secondNumber) == 0)
                     return BadRequest("Não existe divisão por zero!");
                 
-                var sum = ConvertDecimal(firstNumber) / ConvertDecimal(secondNumber);
-                return Ok(sum.ToString());
+                var retorno = ConvertDecimal(firstNumber) / ConvertDecimal(secondNumber);
+                return Ok(retorno.ToString());
             }
             return BadRequest("Entrada inválida");
         }
 
+        [HttpGet("media/{firstNumber}/{secondNumber}")]
+        public IActionResult Media(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(secondNumber) && IsNumeric(firstNumber))
+            {
+                var retorno = (ConvertDecimal(firstNumber) / ConvertDecimal(secondNumber)) / 2;
+                return Ok(retorno.ToString());
+            }
+            return BadRequest("Entrada inválida");
+        }
+
+        [HttpGet("raiz/{firstNumber}")]
+        public IActionResult Raiz(string firstNumber)
+        {
+            if (IsNumeric(firstNumber))
+            {
+                var retorno = Math.Sqrt((double)ConvertDecimal(firstNumber));
+                return Ok(retorno.ToString());
+            }
+            return BadRequest("Entrada inválida");
+        }
         private bool IsNumeric(string strNumber)
         {
             double number;
