@@ -11,7 +11,7 @@ using RestWithASPNETUdemy.Repository;
 
 using Serilog;
 using System.Collections.Generic;
-using RestWithASPNETUdemy.Repositorey.Generic;
+using RestWithASPNETUdemy.Repository.Generic;
 using Microsoft.Net.Http.Headers;
 using RestWithASPNETUdemy.Hypermedia.Filters;
 using RestWithASPNETUdemy.Hypermedia.Enricher;
@@ -20,7 +20,7 @@ using System;
 using Microsoft.AspNetCore.Rewrite;
 using RestWithASPNETUdemy.Services.Implementations;
 using RestWithASPNETUdemy.Services;
-using RestWithASPNETUdemy.Repositorey;
+using RestWithASPNETUdemy.Repository;
 using RestWithASPNETUdemy.Configurations;
 using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -127,6 +127,7 @@ namespace RestWithASPNETUdemy
             services.AddTransient<ITokenService, TokenService>();
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
         }
 

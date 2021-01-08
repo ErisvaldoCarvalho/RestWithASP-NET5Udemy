@@ -1,7 +1,7 @@
 ﻿using RestWithASPNETUdemy.Data.VO;
 using RestWithASPNETUdemy.Model;
 
-namespace RestWithASPNETUdemy.Repositorey
+namespace RestWithASPNETUdemy.Repository
 {
     public interface IUserRepository
     {

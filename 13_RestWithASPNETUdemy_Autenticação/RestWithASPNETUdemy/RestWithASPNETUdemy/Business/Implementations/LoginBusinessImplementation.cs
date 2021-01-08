@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.JsonWebTokens;
 using RestWithASPNETUdemy.Configurations;
 using RestWithASPNETUdemy.Data.VO;
-using RestWithASPNETUdemy.Repositorey;
+using RestWithASPNETUdemy.Repository;
 using RestWithASPNETUdemy.Services;
 using System;
 using System.Collections.Generic;

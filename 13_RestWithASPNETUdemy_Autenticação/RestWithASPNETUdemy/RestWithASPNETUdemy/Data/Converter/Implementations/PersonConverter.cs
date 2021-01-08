@@ -39,7 +39,8 @@ namespace RestWithASPNETUdemy.Data.Converter.Implementations
                 Andress = origin.Andress,
                 FirstName = origin.FirstName,
                 Gender = origin.Gender,
-                LastName = origin.LastName
+                Enabled = origin.Enabled,
+                LastName = origin.LastName              
             };
         }
 

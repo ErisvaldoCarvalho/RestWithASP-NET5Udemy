@@ -6,7 +6,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace RestWithASPNETUdemy.Repositorey
+namespace RestWithASPNETUdemy.Repository
 {
     public class UserRepository : IUserRepository
     {
