@@ -484,6 +484,13 @@ H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\12_RestWithASPNETUdemy_CORS\R
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\12_RestWithASPNETUdemy_CORS\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\ref\RestWithASPNETUdemy.dll
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\12_RestWithASPNETUdemy_CORS\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.pdb
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\12_RestWithASPNETUdemy_CORS\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.genruntimeconfig.cache
+H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.csprojAssemblyReference.cache
+H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.GeneratedMSBuildEditorConfig.editorconfig
+H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.AssemblyInfoInputs.cache
+H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.AssemblyInfo.cs
+H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.csproj.CoreCompileInputs.cache
+H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cs
+H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cache
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\appsettings.Development.json
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\appsettings.json
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\RestWithASPNETUdemy.exe
@@ -526,13 +533,6 @@ H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autent
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.csprojAssemblyReference.cache
-H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.GeneratedMSBuildEditorConfig.editorconfig
-H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.AssemblyInfoInputs.cache
-H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.AssemblyInfo.cs
-H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.csproj.CoreCompileInputs.cache
-H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cs
-H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\RestWithASPNETUdemy.MvcApplicationPartsAssemblyInfo.cache
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\staticwebassets\RestWithASPNETUdemy.StaticWebAssets.Manifest.cache
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\staticwebassets\RestWithASPNETUdemy.StaticWebAssets.xml
 H:\Git\RestWithASP-NET5Udemy\RestWithASP-NET5Udemy\13_RestWithASPNETUdemy_Autenticação\RestWithASPNETUdemy\RestWithASPNETUdemy\obj\Debug\net5.0\scopedcss\bundle\RestWithASPNETUdemy.styles.css

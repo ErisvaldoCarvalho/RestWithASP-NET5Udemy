@@ -11,24 +11,25 @@ namespace RestWithASPNETUdemy.Hypermedia
 {
     public abstract class ContentResponseEnricher<T> : IResponseEnricher where T : ISupportHyperMedia
     {
+        public ContentResponseEnricher()
+        {
+
+        }
+        public virtual bool CanEnrich(Type contentType)
+        {
+            return contentType == typeof(T) || contentType == typeof(List<T>);
+        }
+
         protected abstract Task EnrichModel(T content, IUrlHelper urlHelper);
 
         bool IResponseEnricher.CanEnrich(ResultExecutingContext response)
         {
             if (response.Result is OkObjectResult okObjectResult)
+            {
                 return CanEnrich(okObjectResult.Value.GetType());
+            }
             return false;
         }
-
-        public ContentResponseEnricher()
-        {
-
-        }
-        public bool CanEnrich(Type contentType)
-        {
-            return contentType == typeof(T) || contentType == typeof(List<T>);
-        }
-
         public async Task Enrich(ResultExecutingContext response)
         {
             var urlHelper = new UrlHelperFactory().GetUrlHelper(response);
@@ -38,12 +39,12 @@ namespace RestWithASPNETUdemy.Hypermedia
                 {
                     await EnrichModel(model, urlHelper);
                 }
-                else if (response.Result is List<T> collection)
+                else if (okObjectResult.Value is List<T> collection)
                 {
                     ConcurrentBag<T> bag = new ConcurrentBag<T>(collection);
-                    Parallel.ForEach(bag, (element) => 
-                    { 
-                        EnrichModel(element, urlHelper); 
+                    Parallel.ForEach(bag, (element) =>
+                    {
+                        EnrichModel(element, urlHelper);
                     });
                 }
             }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RestWithASPNETUdemy.Data.VO;
 using RestWithASPNETUdemy.Hypermedia.Constants;
+using System;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -45,7 +46,9 @@ namespace RestWithASPNETUdemy.Hypermedia.Enricher
                 Rel = RelationTypes.self,
                 Type = "int"
             });
-            return null;
+
+            return Task.FromResult<object>(null);
+            //return null;
         }
 
         private string GetLink(long id, IUrlHelper urlHelper, string path)
